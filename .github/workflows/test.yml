@@ -4,10 +4,12 @@ on: [push]
 
 jobs:
   job1:
+    name: job1 name
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World 1"
   job2:
+    name: job2 name
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World 2"
