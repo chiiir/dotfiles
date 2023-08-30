@@ -3,7 +3,11 @@ name: learn-github-actions
 on: [push]
 
 jobs:
-  check-bats-version:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World"
+      - run: echo "Hello World 1"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World 2"
